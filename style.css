@@ -1,0 +1,161 @@
+* {
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f6fb;
+  font-family: "plus_jakarta_sansregular", sans-serif;
+}
+
+.container {
+  padding: 5% 20%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-notification {
+  background-color: white;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem;
+}
+
+.card-notification__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.card-notification__header .header-left {
+  display: flex;
+  flex-direction: row;
+}
+
+.card-notification__header .header-left h2 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.card-notification__header .header-left .box-count {
+  width: 1.7rem;
+  height: 1.5rem;
+  background-color: #090994;
+  border-radius: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0.5rem;
+  color: white;
+  font-weight: 600;
+}
+
+.card-notification__header .header-right {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+.card-notification__header .header-right h3 {
+  cursor: pointer;
+  font-size: 0.9rem;
+  color: rgb(127, 136, 139);
+  font-weight: 500;
+}
+
+.card-notification__header .header-right h3:hover {
+  color: #090994;
+}
+
+/* Card Message  */
+
+.card-message {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 0.6rem;
+  justify-content: space-between;
+}
+
+.card-message-active {
+  background-color: rgb(240, 246, 251);
+}
+
+.card-message .img-user {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.card-message .card-message__content h3 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.card-message .card-message__content .message-action {
+  font-weight: 300;
+  color: grey;
+}
+
+.card-message .card-message__content .message-content {
+  font-weight: 600;
+  color: rgb(28, 30, 149);
+  cursor: pointer;
+}
+
+.card-message .card-message__content .message-content:hover {
+  color: rgb(71, 73, 246);
+}
+
+.card-message__content p {
+  color: rgb(152, 150, 150);
+  margin-top: 0.3rem;
+}
+
+.card-message__content .read-status {
+  text-align: end;
+  display: inline-block;
+  width: 0.5rem;
+  height: 0.5rem;
+  margin-bottom: 0.1rem;
+  border-radius: 50%;
+  background-color: rgb(247, 130, 130);
+}
+
+.box-mini-message {
+  margin-top: 1rem;
+  border: 1px solid rgb(225, 228, 228);
+  padding: 1rem 1rem;
+  border-radius: 0.3rem;
+}
+
+.message-group {
+  display: flex;
+  flex-direction: row;
+}
+
+.image-message {
+  width: 3rem;
+  height: 100%;
+}
+
+/* Responsive  */
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 0 0;
+  }
+
+  .card-notification {
+    border-radius: 0rem;
+  }
+}

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Google Font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;500;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Style  -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card-notification">
+        <div class="card-notification__header">
+          <div class="header-left">
+            <h2>Notifications</h2>
+            <span class="box-count">3</span>
+          </div>
+          <div class="header-right">
+            <h3>Mark all as read</h3>
+          </div>
+        </div>
+
+        <div class="card-notification__body">
+          <!-- Card Message  -->
+          <div class="card-message card-message-active">
+            <div class="message-group">
+              <img
+                class="img-user"
+                src="assets/images/avatar-mark-webber.webp"
+                alt=""
+              />
+              <div class="card-message__content">
+                <h3>
+                  Mark Webber
+                  <span class="message-action"
+                    >reacted to your recent post </span
+                  ><span class="message-content"
+                    >My first tournament today!</span
+                  >
+                  <div class="read-status"></div>
+                </h3>
+                <p>1m ago</p>
+              </div>
+            </div>
+          </div>
+          <!-- Card Message  -->
+          <div class="card-message card-message-active">
+            <div class="message-group">
+              <img
+                class="img-user"
+                src="assets/images/avatar-angela-gray.webp"
+                alt=""
+              />
+              <div class="card-message__content">
+                <h3>
+                  Angela Gray
+                  <span class="message-action">followed you</span>
+                  <span class="read-status"></span>
+                </h3>
+                <p>5m ago</p>
+              </div>
+            </div>
+          </div>
+          <!-- Card Message  -->
+          <div class="card-message card-message-active">
+            <div class="message-group">
+              <img
+                class="img-user"
+                src="assets/images/avatar-jacob-thompson.webp"
+                alt=""
+              />
+              <div class="card-message__content">
+                <h3>
+                  Jacob Thompson
+                  <span class="message-action">has joined your group </span
+                  ><span class="message-content">Chess Club</span>
+                  <span class="read-status"></span>
+                </h3>
+                <p>1 day ago</p>
+              </div>
+            </div>
+          </div>
+          <!-- Card Message  -->
+          <div class="card-message">
+            <div class="message-group">
+              <img
+                class="img-user"
+                src="assets/images/avatar-rizky-hasanuddin.webp"
+                alt=""
+              />
+              <div class="card-message__content">
+                <h3>
+                  Rizky Hasanuddin
+                  <span class="message-action">Sent you private message </span
+                  ><span class="message-content"></span>
+                </h3>
+                <p>5 day ago</p>
+                <div class="box-mini-message">
+                  <p>
+                    Hello, thanks for setting up the Chess Club. I've been a
+                    member for a few weeks now and I'm already having lots of
+                    fun and improving my game.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Card Message  -->
+          <div class="card-message image-action">
+            <div class="message-group">
+              <img
+                class="img-user"
+                src="assets/images/avatar-kimberly-smith.webp"
+                alt=""
+              />
+              <div class="card-message__content">
+                <h3>
+                  Kimberly Smith
+                  <span class="message-action">commented on your picture </span
+                  ><span class="message-content"></span>
+                </h3>
+                <p>1 week ago</p>
+              </div>
+            </div>
+            <img
+              src="assets/images/image-chess.webp"
+              class="image-message"
+              alt=""
+            />
+          </div>
+          <!-- Card Message  -->
+          <div class="card-message card-message-active">
+            <div class="message-group">
+              <img
+                class="img-user"
+                src="assets/images/avatar-nathan-peterson.webp"
+                alt=""
+              />
+              <div class="card-message__content">
+                <h3>
+                  Nathan Peterson
+                  <span class="message-action"
+                    >reacted to your recent post </span
+                  ><span class="message-content"
+                    >5 end-game strategies to increase your win rate</span
+                  >
+                  <span class="read-status"></span>
+                </h3>
+                <p>2 week ago</p>
+              </div>
+            </div>
+          </div>
+          <!-- Card Message  -->
+          <div class="card-message card-message-active">
+            <div class="message-group">
+              <img
+                class="img-user"
+                src="assets/images/avatar-anna-kim.webp"
+                alt=""
+              />
+              <div class="card-message__content">
+                <h3>
+                  Anna Kim
+                  <span class="message-action">left the group </span
+                  ><span class="message-content">Chess Club</span>
+                  <span class="read-status"></span>
+                </h3>
+                <p>2 week ago</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
