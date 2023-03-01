@@ -39,7 +39,7 @@ body {
   flex-direction: row;
 }
 
-.card-notification__header .header-left h2 {
+.card-notification__header .header-left h1 {
   font-size: 1.2rem;
   font-weight: 600;
 }
@@ -63,14 +63,14 @@ body {
   align-items: end;
 }
 
-.card-notification__header .header-right h3 {
+.card-notification__header .header-right h1 {
   cursor: pointer;
   font-size: 0.9rem;
   color: rgb(127, 136, 139);
   font-weight: 500;
 }
 
-.card-notification__header .header-right h3:hover {
+.card-notification__header .header-right h1:hover {
   color: #090994;
 }
 
@@ -96,7 +96,7 @@ body {
   margin-right: 1rem;
 }
 
-.card-message .card-message__content h3 {
+.card-message .card-message__content h1 {
   font-size: 1rem;
   font-weight: 600;
 }
